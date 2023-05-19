@@ -1,0 +1,239 @@
+[
+    {
+        "Id":0,
+        "Title":"Blanche Neige",
+        "Description": "Il était une fois une méchante...",
+        "Image":0,
+        "IsFavorite": false,
+        "Scenes":[
+            {
+                "Id":0,
+                "Title":"Scene 1",
+                "Content": "Il était une fois une méchante reine qui interrogeait chaque jour son miroir magique :\n«Miroir, qui est la plus belle de mon royaume ? » \nUn jour, le miroir lui répond : \n« C’est Blanche\n- neige qui est la plus belle.»",
+                "Image":0
+            },
+            {
+                "Id":1,
+                "Title":"Scene 2",
+                "Content": "La reine entre dans une violente colère. Elle ordonne à son garde\n- chasse de tuer BlancheNeige. Au dernier moment, il n'en a pas le courage et laisse fuir Blanche\n- Neige. Terrorisée, la jeune fille est recueillie par les animaux de la forêt. Ils la conduisent à la maison des sept nains. Ceux\n- ci travaillent dans une mine de diamant. Blanche\n- Neige s'installe et met de l'ordre dans la maison.",
+                "Image":1
+            },
+            {
+                "Id":2,
+                "Title":"Scene 3",
+                "Content": "La reine apprend par son miroir que Blanche\n- Neige est encore en vie. Elle utilise dessortilèges pour se changer en vieille femme. Un jour, elle lui apporte une pommeempoisonnée qui plonge Blanche\n- Neige dans un profond sommeil. Les nains arrivent trop tard. Ils poursuivent la sorcière qui tombe dans un précipice. Puis ils enferment Blanche\n- Neige dans un cercueil de verre.",
+                "Image":2
+            },
+            {
+                "Id":3,
+                "Title":"Scene 4",
+                "Content": "Mais lorsque le prince charmant embrasse Blanche\n- Neige, elle se réveille.",
+                "Image":3
+            }
+        ]
+    },
+    {
+        "Id":1,
+        "Title":"Les Trois Petits Cochons",
+        "Description": "Il était une fois trois petits cochons...",
+        "Image":1,
+        "IsFavorite": false,
+        "Scenes":[
+            {
+                "Id":0,
+                "Title":"Scene 1",
+                "Content": "Il était une fois trois petits cochons qui vivaient avec leur maman dans une petite maison. Un jour, La maman appela ses trois fils et leur dit qu'elle ne pouvait plus les élever parce qu'elle était trop pauvre. Je voudrais que vous partiez d'ici et construisiez votre maison, dit\n- elle, mais prenez garde qu'elle soit bien solide pour que le grand méchant loup ne puisse entrer et vous manger.",
+                "Image":4
+            },
+            {
+                "Id":1,
+                "Title":"Scene 2",
+                "Content": "Le premier petit cochon rencontra un homme portant une botte de paille. \"Puis\n- je avoir un peu de paille pour construire ma maison ?\" demanda le petit cochon.Et l'homme lui donna de la paille. Le second petit cochon avait rencontré un homme qui portait un chargement de bois. \"Puis\n- je avoir quelques bouts de bois pour construire ma maison?\" demanda le petit cochon. Et l'homme lui donna le bois. Le troisième petit cochon, lui avait rencontré un homme chargé de briques. \"S'il vous plaît, Monsieur, demanda le troisième petit cochon, puis\n- je avoir quelques briques pour construire ma maison? L'homme lui donna assez de briques pour bâtir une grande et solide maison",
+                "Image":5
+            },
+            {
+                "Id":2,
+                "Title":"Scene 3",
+                "Content": "Dès qu’ils en eurent fini, les deux premiers petits cochons se donnèrent du bon temps, tandis que leur frère, le troisième petit cochon, continua de transporter infatigablement les pierres pour sa propre maison",
+                "Image":6
+            },
+            {
+                "Id":3,
+                "Title":"Scene 4",
+                "Content": "Pendant la nuit, un grand bruit les réveilla. Le loup était devant la maison en paille. Le loup : Petit cochon, laisse\n- moi entrer.Le premier cochon : Non, non, par la barbiche de mon petit menton. Je suis à l’abri chez moi. Demandez à l’interprète du loup de grogner et de souffler. La maison de paille s’envole toute seule.  Le loup : Petits cochons, laissez\n- moi entrer. Le deuxième cochon : Pas question. Ma maison est solide, tu peux souffler, elle ne s’envolera pas. Au loup de souffler à nouveau et la deuxième maison s’envole. Faites sortir les deux cochons et mettez\n- les dans la troisième maison avec leur frère. Le loup : Laissez\n- moi entrer petits cochons. Ce n’est pas la peine de résister je vais vous manger.  Le troisième cochon : Tu peux souffler, gronder, crier, tu ne me fais pas peur. Ma maison est en brique, elle ne s’envolera pas. Le loup souffle, encore et encore… mais rien ! La maison est trop solide et ne s’envole pas. Il est furieux et rentre chez lui. Les petits cochons ont gagné. Les trois cochons : Qui a peur du méchant loup, méchant loup, méchant loup ? Qui a peur du grand méchant loup, c’est sûrement pas nous !",
+                "Image":7
+            }
+        ]
+    },
+    {
+        "Id":2,
+        "Title":"Cendrillon",
+        "Description": "Après la mort de sa femme, le père de Cendrillon....",
+        "Image":2,
+        "IsFavorite": false,
+        "Scenes":[
+            {
+                "Id":0,
+                "Title":"Scene 1",
+                "Content": "Après la mort de sa femme, le père de Cendrillon, un noble, se remarie avec une femme odieuse. La belle\n- mère de Cendrillon a deux filles, Javotte et Anastasie, tout aussi odieuse que leur mère. La belle\n- mère est jalouse de Cendrillon, qui est douce et gentille. Elle la force à s'occuper de toutes les tâches ménagères et à dormir dans le grenier.",
+                "Image":8
+            },
+            {
+                "Id":1,
+                "Title":"Scene 2",
+                "Content": "Un beau jour, le roi du pays décide de marier son fils, le prince. Il organise un bal et invite tous les nobles du royaume. Alors, tandis que les deux jeunes filles et leur mère se rendent au château",
+                "Image":9
+            },
+            {
+                "Id":2,
+                "Title":"Scene 3",
+                "Content": "La marraine fée de Cendrillon transforme une citrouille en un élégant carrosse et quatre souris en chevaux blancs. Elle habille la jeune fille avec une belle robe de princesse et lui donne la permission d'aller à la réception jusqu'à minuit.",
+                "Image":10
+            },
+            {
+                "Id":3,
+                "Title":"Scene 4",
+                "Content": "Le prince tombe immédiatement amoureux de la belle inconnue, mais Cendrillon, entendant les 12 coups de minuit, s'enfuit. Dans sa fuite, elle perd une chaussure.",
+                "Image":11
+            },
+            {
+                "Id":4,
+                "Title":"Scene 5",
+                "Content": "Le lendemain, le gentilhomme vient chez elle et fait essayer la chaussure à Cendrillon sans problème. Cendrillon pardonne sa marraine et ses demi\n- soeurs avant de partir à la cour pour épouser le prince. Plus tard, elle invite Anastasie et Javotte et les marie à deux grands seigneurs.",
+                "Image":11
+            }
+        ]
+    },
+    {
+        "Id":3,
+        "Title":"Le Petit Chaperon Rouge",
+        "Description": "a plus jolie petite fille du village....",
+        "Image":3,
+        "IsFavorite": false,
+        "Scenes":[
+            {
+                "Id":0,
+                "Title":"Scene 1",
+                "Content": "La plus jolie petite fille du village, le Petit Chaperon rouge,  part visiter sa grand\n- mère malade à la demande de sa mère.  Elle a pour mission de lui apporter une galette et un petit pot de beurre et pour ce faire,  elle doit traverser le village en passant par la forêt.",
+                "Image":12
+            },
+            {
+                "Id":1,
+                "Title":"Scene 2",
+                "Content": "Le Petit Chaperon rouge va croiser la route du Loup et ne s'en méfiera pas. Elle lui donne des indications sur sa destination et accepte la proposition du Loup qui s'apparente à un jeu.",
+                "Image":13
+            },
+            {
+                "Id":2,
+                "Title":"Scene 3",
+                "Content": "Lorsqu'elle arrive à destination, le Loup a déjà dévoré la grand\n- mère et a pris sa place dans son lit. Quand la petite fille arrive enfin, elle tombe dans le piège et se fait dévorer à son tour.",
+                "Image":14
+            }
+        ]
+    },
+    {
+        "Id":4,
+        "Title":"Le Petit Chaperon Rouge",
+        "Description": "a plus jolie petite fille du village....",
+        "Image":4,
+        "IsFavorite": false,
+        "Scenes":[
+            {
+                "Id":0,
+                "Title":"Scene 1",
+                "Content": "Il était une fois, une famille de trois ours qui vivaient dans la forêt. Il y avait Papa ours, Maman ours et le petit, Bébé ours. Un jour, les ours préparèrent de la soupe et allèrent faire une promenade pendant qu'elle refroidissait. Ce même jour, une petite fille nommée Boucles d'or faisait également une promenade et s'enfonça profondément dans la forêt. C'est là qu'elle aperçut la maison des ours.  Boucles d'or, curieuse, voulut voir l'intérieur de la maison. D'abord, elle regarda à travers la fenêtre. Ensuite, elle regarda par le trou de la serrure. Pour finir, elle ouvrit la porte et entra...",
+                "Image":15
+            },
+            {
+                "Id":1,
+                "Title":"Scene 2",
+                "Content": "\n- Bonjour ? dit\n- elle. Personne ne répondit. Elle sentit l'odeur de la soupe et décida d'y goûter.  D'abord, elle essaya le bol de Papa ours. \n- Aie ! hurla\n- t\n- elle, C'est trop chaud !  Ensuite, elle essaya le bol de Maman ours. \n- Berk ! dit\n- elle, C'est trop froid ! Pour finir,  elle essaya le bol de Bébé ours. \n- Humm ! dit\n- elle, C'est trop bon ! Et elle mangea tout.",
+                "Image":16
+            },
+            {
+                "Id":2,
+                "Title":"Scene 3",
+                "Content": "Boucles d'or poursuivit son exploration et se retrouva dans la chambre. Elle décida de faire une sieste.  D'abord, elle vit un très grand lit. \n- Ce lit est trop haut ! Ensuite, elle vit un lit très bas.  \n- Ce lit est trop bas ! Pour finir, elle vit un petit lit qui était celui de Bébé ours.  \n- Ce lit est parfait ! s'exclama\n- t\n- elle. C'est si confortable que je pourrais m'endormir tout de suite !  Et c'est exactement ce qu'elle fit.",
+                "Image":17
+            },
+            {
+                "Id":3,
+                "Title":"Scene 4",
+                "Content": "Alors que Boucles d'or dormait, les trois ours rentrèrent de leur promenade.  Ils se mirent à table pour manger leur soupe.  \n- Quelqu'un a goûté ma soupe ! gronda Papa ours.  \n- Quelqu'un a aussi goûté ma soupe ! grommela Maman ours. \n- Quelqu'un a mangé ma soupe  \n- il n'y en a plus une goutte ! pleurnicha Bébé ours. Inquiets, les trois ours regardèrent autour d'eux et quand ils entrèrent dans la chambre...",
+                "Image":18
+            },
+            {
+                "Id":4,
+                "Title":"Scene 5",
+                "Content": "Les ours qui commençaient à avoir faim, secouèrent Boucles d'or pour la réveiller.  Elle eut très peur quand elle vit les trois ours penchés au\n- dessus d'elle ! Sans penser à s'excuser,  elle bondit du lit. Sans même toucher le sol, elle s'enfuit par la fenêtre.  Sans prendre la peine de s'arrêter, elle courut jusque chez elle.  Boucles d'or était heureuse d'être de retour.  Elle dit à ses parents qu'elle n'irait plus jamais se promener seule dans la forêt.",
+                "Image":19
+            }
+        ]
+    },
+    {
+        "Id":5,
+        "Title":"Le Vilain Petit Canard",
+        "Description": "Après avoir longtemps couvé, une cane vit enfin....",
+        "Image":5,
+        "IsFavorite": false,
+        "Scenes":[
+            {
+                "Id":0,
+                "Title":"Scene 1",
+                "Content": "Après avoir longtemps couvé, une cane vit enfin naître ses canetons. Ils étaient tous d'un jaune magnifique, sauf un, si foncé et si laid, que tous les animaux de la ferme se pressaient pour le voir. Le caneton ne s'en inquièta pas et partit tout joyeux à la mare avec la couvée. La nouvelle se répandit très vite et le caneton devint la risée de toute la ferme.\n- Mais d'où sort\n- il ? se demandaient les animaux.\n   Nous n'avons jamais vu un animal aussi laid !   \nQu'il est vilain ! Il vient peut\n- être d'une autre   \nplanète ?",
+                "Image":20
+            },
+            {
+                "Id":1,
+                "Title":"Scene 2",
+                "Content": "Les moqueries et les insultes se répétaient tous les jours... Jusqu'au jour où, lassé, le vilain petit canard décida de partir. Un soir d'été, il quitta la ferme le coeur serré. \n- Tu es complètement fou ! lui dit un oiseau. Ne sais\n- tu pas que le monde est plein de dangers ?\n- Cela m'est égal ! répondit le vilain petit canard. Quel que soit l'endroit où j'irai,   cela ne pourra jamais être pire qu'ici !",
+                "Image":21
+            },
+            {
+                "Id":2,
+                "Title":"Scene 3",
+                "Content": "Mais l'oiseau avait bien raison ! Quand la nuit tomba, la forêt se transforma en un horriblelieu peuplé de monstres plus terrifiants les uns que les autres. le petit matin lui fit connaître une frayeur encore plus grande. Un chasseur arriva sur une barque et lâcha son énorme chien qui ne tarda pas à repérer la trace du vilain petit canard. Le chien était sur le point de le découvrir, lorsque... une main l'attrapa très délicatement, lui épargnant ainsi une mort certaine. C'était une promeneuse qui visitait la région et qui avait observé toute la scène. \n- Quel étrange animal ! je vais le ramener chez moi pour le montrer à mes amis, se dit\n- elle. Mais après l'avoir bien regardé, elle se dit : \n- Il est tellement laid que je ferai bien mieux de le laisser ici !",
+                "Image":22
+            },
+            {
+                "Id":3,
+                "Title":"Scene 4",
+                "Content": "Cette fois, c'était sûr, personne n'aimerait jamais le vilain petit canard ! L'automne arriva, puis l'hiver s'installa. Il faisait un peu plus froid chaque jour et les animaux de la forêt commençaient à rentrer dans leurs terriers pour passer l'hiver. Et le vilain petit canard fut le seul animal qui n'avait pas de maison pour l'hiver. \n- Je vais mourir frigorifié, se dit\n- il.",
+                "Image":23
+            },
+            {
+                "Id":4,
+                "Title":"Scene 5",
+                "Content": "Heureusement, un bûcheron eut pitié de lui. \n- Glisse\n- toi bien au chaud dans ma poche, dit\n- il, en reprenant le volant de son camion. Et le vilain petit canard passa tout l'hiver chez le bûcheron. Au printemps, l'homme le déposa près du lac où il l'avait trouvé et lui rendit sa liberté : \n- Te voilà maintenant assez grand pour retrouver ta famille, lui dit\n- il. Pendant tout ce temps, le vilain petit canard avait grandi. Et quelle immense surprise lorsqu'il vit son reflet dans l'eau du lac. \n- C'est incroyable ! s'exclama\n- t\n- il, je suis un cygne ! A partir de ce jour, il fit l'admiration de tous les animaux du lac.",
+                "Image":24
+            }
+        ]
+    },
+    {
+        "Id":6,
+        "Title":"Les Trois Petits Pois",
+        "Description": "Il pleuvait fort, ce jour\n- là. Docteur Navet....",
+        "Image":6,
+        "IsFavorite": false,
+        "Scenes":[
+            {
+                "Id":0,
+                "Title":"Scene 1",
+                "Content": "Il pleuvait fort, ce jour\n- là. Docteur Navet et Sir Poireau, nos deux détectives privés, avaient été conviés au fond du potager. Trois petits pois avaient disparu, on ne les retrouvait plus. Le jardin était en émoi. On vivait dans la peur et l'effroi.",
+                "Image":25
+            },
+            {
+                "Id":1,
+                "Title":"Scene 2",
+                "Content": "pied des cosses vides, seule une rainette gambadait. Avec ses grands airs, elle alerta nos deux compères. \n- Qui va là ? cria Sir Poireau. \n- Qui trouble nos recherches ? ajouta Dr Navet, l'air revêche. À ces mots, la rainette fila en douce. Elle fit trois sauts et prit le chemin du château. Intrigués par son comportement, nos deux enquêteurs la suivirent prudemment. Une colonne de petits pois en fit autant. En chemin, elle rencontra une autre rainette et lui fit la causette. \n- Au château, on attend une nouvelle princesse, dit\n- elle. À la nuit tombée, un autre pois sera volé. Les précédents n'ont pas fait l'affaire. \" Trop tendres \",  a dit la reine. Son armée sera bientôt en route, il leur en faut un coûte que coûte.",
+                "Image":26
+            },
+            {
+                "Id":2,
+                "Title":"Scene 3",
+                "Content": "Elle se mit alors à fredonner : \" C'est une jeune princesse qui vient au château. Il pleut, et elle est trempée jusqu'aux os. La vieille reine qui la reçoit, À son titre de princesse ne croit pas. Elle met un petit pois sous vingt matelas. La princesse se couche mais ne dort pas. \" \" Au petit matin, toute flagada Par un unique pois sous les matelas, On se dit : \" Voilà une vraie princesse Qui mérite bien ses titres de noblesse. \" Au prince on la maria, et le petit pois, on l'enferma. \" ",
+                "Image":27
+            }
+        ]
+    }
+]
