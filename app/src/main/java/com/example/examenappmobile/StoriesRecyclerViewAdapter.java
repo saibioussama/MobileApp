@@ -53,14 +53,14 @@ public class StoriesRecyclerViewAdapter extends RecyclerView.Adapter<StoriesRecy
             if(s.getFavorite())
             {
                 holder.favButton.setImageResource(R.drawable.star_1);
-                Snackbar.make(v, s.getTitle() + " is added to favorite list.", Snackbar.LENGTH_LONG)
+                Snackbar.make(v, s.getTitle() + " est ajoutée à la liste de favoris.", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
                 storyListener.AddToFav(s.getId());
             }
             else
             {
                 holder.favButton.setImageResource(R.drawable.star_0);
-                Snackbar.make(v, s.getTitle() + " is removed from favorite list.", Snackbar.LENGTH_LONG)
+                Snackbar.make(v, s.getTitle() + " est retirée de la liste de favoris", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
                 storyListener.RemoveFromFav(s.getId());
             }

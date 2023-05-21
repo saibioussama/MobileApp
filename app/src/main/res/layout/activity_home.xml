@@ -75,7 +75,7 @@
             android:layout_gravity="center"
             android:fontFamily="sans-serif-condensed-medium"
             android:gravity="center"
-            android:text="Encire une histoire"
+            android:text="Encore une histoire"
             android:textColor="#FFFFFF"
             android:textSize="22sp"
             android:textStyle="bold" />
