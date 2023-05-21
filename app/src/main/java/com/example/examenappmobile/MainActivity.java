@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity implements StoriesRecyclerVi
     TextView headerTV;
     ImageButton SearchBtn;
     EditText SearchEntry;
-    public  boolean IsFavSelected = false;
+    public boolean IsFavSelected = false;
     private AppBarConfiguration appBarConfiguration;
     private ActivityMainBinding binding;
     public  ArrayList<Story> AllStories = new ArrayList<Story>();
@@ -157,11 +157,7 @@ public class MainActivity extends AppCompatActivity implements StoriesRecyclerVi
 
     @Override
     public void OnClick(int position) {
-        Story story;
-        if(IsFavSelected)
-            story = FavoriteStories.get(position);
-        else
-            story = AllStories.get(position);
+        Story story = Story.GetItemById(AllStories, position);
         if(story!=null)
         {
             Gson gson = new Gson();

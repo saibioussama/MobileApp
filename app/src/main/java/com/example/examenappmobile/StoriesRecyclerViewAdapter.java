@@ -72,7 +72,7 @@ public class StoriesRecyclerViewAdapter extends RecyclerView.Adapter<StoriesRecy
         return Stories.size();
     }
 
-    public static class MyViewHolder extends RecyclerView.ViewHolder{
+    public class MyViewHolder extends RecyclerView.ViewHolder{
         ImageView imageView;
         TextView titleTextView,descriptionTextView;
         ImageButton favButton;
@@ -89,7 +89,8 @@ public class StoriesRecyclerViewAdapter extends RecyclerView.Adapter<StoriesRecy
                 {
                     int position = getAdapterPosition();
                     if(position!= RecyclerView.NO_POSITION){
-                        storyListener.OnClick(position);
+                        Story story = Stories.get(position);
+                        storyListener.OnClick(story.Id);
                     }
                 }
             });
