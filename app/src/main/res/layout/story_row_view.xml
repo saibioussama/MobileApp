@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:elevation="8dp">
+    android:elevation="8dp"
+    app:layout_wrapBehaviorInParent="included">
 
     <androidx.cardview.widget.CardView
         android:layout_width="0dp"
@@ -12,7 +13,7 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="20dp"
-        app:cardBackgroundColor="#CC513E12"
+        app:cardBackgroundColor="#CCF3F0E9"
         app:cardCornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,31 +39,29 @@
                 android:layout_height="25dp"
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="10dp"
-                android:scrollHorizontally="true"
                 android:ellipsize="end"
-                android:maxLines="1"
                 android:fontFamily="casual"
                 android:gravity="center_vertical"
+                android:maxLines="1"
+                android:scrollHorizontally="true"
                 android:text="TextView"
-                android:textColor="#FFFFFF"
+                android:textColor="#000000"
                 android:textSize="14sp"
                 app:layout_constraintStart_toEndOf="@+id/imageView"
                 app:layout_constraintTop_toBottomOf="@+id/TitleTV" />
 
             <TextView
                 android:id="@+id/TitleTV"
-                android:layout_width="wrap_content"
-                android:layout_height="40dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
                 android:layout_marginStart="15dp"
                 android:fontFamily="cursive"
-                android:gravity="center_vertical"
                 android:text="TextView"
-                android:textColor="#FFFFFF"
-                android:textSize="26sp"
+                android:textColor="#000000"
+                android:textSize="18sp"
                 android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/imageView"
-                app:layout_constraintTop_toBottomOf="@+id/FavButton"
-                app:layout_wrapBehaviorInParent="vertical_only" />
+                app:layout_constraintTop_toBottomOf="@+id/FavButton" />
 
             <ImageButton
                 android:id="@+id/FavButton"
@@ -71,6 +70,7 @@
                 android:backgroundTint="#007A1919"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:srcCompat="@drawable/star_1"
+                tools:ignore="MissingConstraints"
                 tools:layout_editor_absoluteY="0dp" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
