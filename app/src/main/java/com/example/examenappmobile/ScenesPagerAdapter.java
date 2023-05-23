@@ -34,6 +34,7 @@ public class ScenesPagerAdapter extends RecyclerView.Adapter<ScenesPagerAdapter.
     public void onBindViewHolder(@NonNull ScenesPagerAdapter.ViewHolder holder, int position) {
         Scene scene = Scenes.get(position);
         holder.sceneContent.setText(scene.getContent());
+        holder.sceneContent.setMovementMethod(new ScrollingMovementMethod());
         holder.sceneImage.setImageResource(SceneActivity.ScenesImage[scene.getImage()]);
 //        holder.sceneTitle.setText(scene.getTitle());
     }

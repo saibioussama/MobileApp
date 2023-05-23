@@ -4,84 +4,77 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/T"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:background="#FFFFFF"
     android:fitsSystemWindows="true"
     tools:context=".SceneActivity">
 
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/MyConstraintLayout2"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
+       <androidx.appcompat.widget.LinearLayoutCompat
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/DescriptionTV"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="20dp"
-            android:fontFamily="cursive"
-            android:gravity="center"
-            android:text="TextView"
-            android:textColor="#070707"
-            android:textSize="42sp"
-            android:textStyle="bold"
-            app:layout_constraintTop_toTopOf="@+id/MyConstraintLayout2"
-            tools:layout_editor_absoluteX="20dp" />
+           <TextView
+               android:id="@+id/DescriptionTV"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_margin="20dp"
+               android:layout_weight="0"
+               android:fontFamily="cursive"
+               android:gravity="center|top"
+               android:text="TextView"
+               android:textColor="#070707"
+               android:textSize="42sp"
+               android:textStyle="bold" />
 
-        <androidx.viewpager2.widget.ViewPager2
-            android:id="@+id/MyViewPager"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            app:layout_constraintTop_toBottomOf="@+id/DescriptionTV">
+           <androidx.viewpager2.widget.ViewPager2
+               android:id="@+id/MyViewPager"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_weight="1">
 
-        </androidx.viewpager2.widget.ViewPager2>
+           </androidx.viewpager2.widget.ViewPager2>
 
-        <LinearLayout
-            android:id="@+id/linearLayout2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginBottom="20dp"
-            android:gravity="bottom"
-            android:orientation="horizontal"
-            app:layout_constraintBottom_toBottomOf="@+id/MyConstraintLayout2"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/MyViewPager">
+           <LinearLayout
+               android:id="@+id/linearLayout2"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginStart="10dp"
+               android:layout_marginEnd="10dp"
+               android:layout_weight="0"
+               android:gravity="bottom"
+               android:orientation="horizontal">
 
-            <Button
-                android:id="@+id/BackBtn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:fontFamily="casual"
-                android:gravity="center"
-                android:text="Précédent" />
+               <Button
+                   android:id="@+id/BackBtn"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:backgroundTint="#4287f5"
+                   android:gravity="center"
+                   android:text="Précédent" />
 
-            <TextView
-                android:id="@+id/PagesTV"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:autoText="false"
-                android:fontFamily="cursive"
-                android:gravity="center"
-                android:text="0/0"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+               <TextView
+                   android:id="@+id/PagesTV"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:fontFamily="cursive"
+                   android:gravity="center"
+                   android:text="0/0"
+                   android:textSize="18sp"
+                   android:textStyle="bold" />
 
-            <Button
-                android:id="@+id/NextBtn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:fontFamily="casual"
-                android:gravity="center"
-                android:text="Suivant" />
+               <Button
+                   android:id="@+id/NextBtn"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_weight="1"
+                   android:backgroundTint="#4287f5"
+                   android:gravity="center"
+                   android:text="Suivant" />
 
-        </LinearLayout>
-    </androidx.constraintlayout.widget.ConstraintLayout>
+           </LinearLayout>
+       </androidx.appcompat.widget.LinearLayoutCompat>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
